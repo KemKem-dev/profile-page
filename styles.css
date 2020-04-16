@@ -143,6 +143,18 @@ form textarea {
     border-radius: 5px;
 }
 
+form input[type="text"]:focus {
+    outline: none;
+}
+
+form input[type="email"]:focus {
+    outline: none;
+}
+
+form textarea {
+    outline: none;
+}
+
 .form-btn {
     display: block;
     background: var(--primary-color);
