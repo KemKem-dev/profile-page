@@ -200,12 +200,32 @@ form textarea {
 }
 
 @media (max-width:980px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper .left {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        background-size: cover;
+        background-position: center;
+    }
+    .right {
+        width: 100%;
+        justify-content: center;
+        padding: 30px;
+    }
     img {
-        margin-top: 68px;
+        width: 300px;
+        height: 200px;
+        margin-top: 38px;
         margin-right: 10px;
+        border-radius: 10px;
     }
     .left h3 {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .left p {
         margin-top: 10px;
